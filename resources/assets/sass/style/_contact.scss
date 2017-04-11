@@ -1,0 +1,44 @@
+
+/* #CONTACT INFO SECTION 1 #NEW
+=====================================================*/
+.cis-cont{
+  position: relative;
+  padding-left: 65px;
+}
+.cis-icon {
+  position: absolute;
+  top: 25px;
+  left: 0;
+  color: #6b6d6f;
+  font-size: 35px;
+}
+.cis-text  {
+  padding:16px 0px 18px 0;
+}
+.cis-text h3 {
+  color: #2a2b2f;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 26px;
+  margin: 0;
+}
+.cis-text p {
+  margin: 0;
+  font-size: 13px;
+}
+
+/* #GMAPS 1 #NEW
+=====================================================*/
+#google-map {
+  height: 600px;
+  position: relative;
+  background-color: #eee !important;
+  z-index: 1;
+}
+.gmnoprint, .gm-style-cc {
+  /* display:none !important; */
+}
+.google-map-container {
+  text-align:center;
+  padding-top: 25px;
+}

@@ -1,0 +1,19 @@
+$theme-colors: (
+        blue1: #004562,
+        orange1: #f6921e,
+        gray1: #4B4E53
+);
+
+$default-theme-color: map_get($theme-colors, gray1);
+$default-reverse-color: map_get($theme-colors, orange1);
+
+$default-font-1: 'Open Sans', Arial, Helvetica, sans-serif;
+$default-font-2: 'Lato', Arial, Helvetica, sans-serif;
+$default-font-3: 'Montserrat',Arial,Helvetica,sans-serif;
+$default-font-4: 'Poppins',Arial,Helvetica,sans-serif;
+$default-font-5: 'Poppins','Open Sans', Arial, Helvetica, sans-serif;
+$default-font-6: 'Raleway', Arial, Helvetica, sans-serif;
+$default-font-7: 'Josefin Sans', Arial, Helvetica, sans-serif;
+
+$default-font-size: 14px;
+$default-line-height: 20px;

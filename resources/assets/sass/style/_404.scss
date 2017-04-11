@@ -1,0 +1,53 @@
+
+/* #404
+================================================== */
+.error404-text {
+  text-align:center;
+  color:#5a5a5a;
+  font-family: $default-font-4;
+  font-size:30px;
+  line-height:30px;
+  margin-bottom: 25px;
+  margin-top: 25px;
+}
+.error404-numb {
+  color:#909090;
+  text-align:center;
+  font-family: $default-font-4;
+  font-size:250px;
+  line-height:250px;
+  margin-bottom: 40px;
+  margin-top: 30px;
+}
+.error404-main-text h2 {
+  text-align:center;
+  font-family: $default-font-4;
+  font-size:30px;
+  line-height:30px;
+  padding-bottom: 15px;
+  padding-top: 20px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* #404 #NEW-2
+================================================== */
+.error404-numb2{
+  font-size:120px;
+  line-height:120px;
+}
+.error404-text2{
+  line-height:40px;
+  margin-bottom: 50px;
+}
+@media (max-width: 480px) {
+  .error404-numb2{
+    font-size:80px;
+    line-height:80px;
+  }
+  .error404-text2{
+    font-size:18px;
+    line-height:24px;
+    margin-bottom: 30px;
+  }
+}

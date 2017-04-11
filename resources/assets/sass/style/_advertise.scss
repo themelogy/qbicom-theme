@@ -1,0 +1,80 @@
+
+/* #ADS 1 & 2 #NEW
+=====================================================*/
+.ads-img-cont {
+  padding-top:50px;
+  padding-bottom:45px;
+}
+
+/* #ADS 3 & 4 #NEW-2
+=====================================================*/
+
+@media only screen and (max-width: 992px) {
+  .ads3-img-cont {
+    height:auto !important;
+  }
+  .ads3-img-cont > div  {
+    position:relative;
+    transform:none;
+    top:0;
+    left:0;
+  }
+}
+
+/* #VIDEO ADS 1 #NEW
+=====================================================*/
+.video-ads-bg {
+  will-change: background-position;
+  margin: 0;
+  padding: 0;
+  background:#2c2c2c url(../images/work-proc-bg.jpg) fixed;
+}
+.video-ads-text-cont {
+  margin:0 auto;
+  padding-top:100px;
+  padding-bottom:100px;
+  text-align:center;
+  font-family: $default-font-4;
+  font-size:30px;
+  line-height:36px;
+  font-weight:100;
+  color:#f1f1f1;
+}
+.video-ads-text-cont.video-ads-text-black {
+  color:#2a2b2f;
+}
+.video-ads-a a:hover{
+  color:#a5a5a5;
+}
+.video-ads-text-cont a{
+  display:inline-block;
+  padding:20px;
+  font-size:65px;
+  line-height:45px;
+  color:#fff;
+  vertical-align:middle;
+}
+.video-ads-text-cont.video-ads-text-black a{
+  color:#2a2b2f;
+}
+.video-ads-text-cont.video-ads-text-black a:hover{
+  color:#97999c;
+}
+@media only screen and (max-width: 992px) {
+  .video-ads-text-cont {
+    font-size:28px;
+    line-height:28px;
+  }
+  .video-ads-bg, .work-proc-1-bg {
+    background-attachment:scroll;
+  }
+  .video-ads-text-cont {
+    padding-top:80px;
+    padding-bottom:80px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .video-ads-text, .video-ads-a {
+    display:block;
+  }
+}

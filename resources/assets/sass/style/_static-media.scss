@@ -1,0 +1,191 @@
+
+/* #STATICK MEDIA #NEW
+=====================================================*/
+.sm-img-bg {
+  background-position: 50% 0px;
+}
+.sm-img-bg-fullscr {
+  background-position: 50% 0px;
+  background-size:cover;
+
+  width: 100%;
+  display: block;
+  position: relative;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  overflow: hidden;
+  background-repeat: no-repeat;
+}
+.sm-video-bg {
+  background-image: url(../images/static-media/video-bg.jpg);
+  background-position: 50% 0px;
+  overflow: hidden;
+  position:relative;
+}
+.sm-content-cont{
+  display: table;
+  height:600px;
+}
+.sm-content-cont-fullscr{
+  display: table;
+}
+
+@media only screen and (max-width: 767px){
+  .sm-content-cont {
+    height: 350px;
+  }
+  .sm-content-cont .light-72-wide, .sm-content-cont-fullscr .light-72-wide {
+    font-size:28px;
+    line-height:30px;
+    letter-spacing:3px;
+  }
+  .slider-text-bg {
+    height:45%;
+    height:50%;
+    width:100%;
+    background:rgba(255,255,255,.5);
+    background:rgba(103,103,103,1);
+    background:rgba(13,13,13,.75);
+    position:absolute;
+    top:50%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+    left:0;
+    z-index:0;
+  }
+  .port-filter li {
+    display:list-item;
+  }
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+  .sm-content-cont .light-72-wide, .sm-content-cont-fullscr .light-72-wide{
+    letter-spacing:5px;
+  }
+}
+.sm-cont-middle {
+  display: table-cell;
+  height: 100%;
+  vertical-align: middle;
+}
+
+/***** BG VIDEO *****/
+.sm-video-wrapper{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  left: 0px;
+  z-index: 0;
+}
+.sm-video{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  left: 0px;
+}
+.sm-video-wrapper video{
+  max-width: inherit;
+  height: inherit;
+  z-index: 0;
+}
+
+/*****  ALFA BG  *****/
+.bg-img-alfa:before {
+  content: " ";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: url(../images/static-media/img-alfa-wide.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 100%;
+  z-index:1;
+
+  width: 100%;
+  display: block;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  overflow: hidden;
+  background-repeat: no-repeat;
+}
+@media only screen and (max-width : 1024px) {
+  .bg-img-alfa:before { background-image: url(../images/static-media/img-alfa-wide-1024.png);}
+}
+@media (max-width : 1024px) and (orientation: portrait) {
+  .bg-img-alfa:before { background-image: url(../images/static-media/img-alfa-wide-768.png);}
+}
+
+.bg-dark-alfa-40:before {
+  content: " ";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgba(3,3,3, .4);
+}
+.bg-dark-alfa-50:before {
+  content: " ";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgba(3,3,3, .5);
+}
+.bg-dark-alfa-60:before {
+  content: " ";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgba(3,3,3, .6);
+}
+.bg-dark-alfa-70:before {
+  content: " ";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgba(3,3,3, .7);
+}
+.bg-dark-alfa-80:before {
+  content: " ";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgba(3,3,3, .8);
+}
+.bg-dark-alfa-90:before {
+  content: " ";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgba(3,3,3, .9);
+}

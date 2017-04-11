@@ -1,0 +1,39 @@
+
+/* #WORK NAV #NEW
+================================================== */
+.work-navigation{
+  padding:18px 0;
+  width: 100%;
+  background: #fff;
+  z-index: 99;
+  font-family: $default-font-4;;
+}
+.work-navigation .icon{
+  font-size: 24px;
+  line-height:19px;
+  vertical-align: middle;
+}
+.work-navigation .work-all .icon{
+  font-size: 20px;
+  line-height: 19px;
+}
+.work-navigation .fa-times{
+  font-size: 16px;
+  margin-top: -2px;
+}
+.work-navigation a{
+  display: block;
+  float: left;
+  width: 33.33333%;
+  overflow: hidden;
+  vertical-align: middle;
+  text-decoration: none;
+  white-space: nowrap;
+  cursor: default;
+}
+.work-navigation a span{
+  display: inline-block;
+}
+.work-prev{ text-align: left;}
+.work-all{ text-align: center;}
+.work-next{	text-align: right;}

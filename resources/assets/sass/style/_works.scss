@@ -1,0 +1,96 @@
+
+/* #WORK PROCESS 1 #NEW
+=====================================================*/
+.work-proc-1-bg {
+  will-change: background-position;
+  margin: 0;
+  padding: 0;
+  background: #2c2c2c url(../images/work-proc-bg.jpg) fixed;
+  color:#f1f1f1;
+}
+.work-proc-1-bg h3, .work-proc-1-bg .icon {
+  color:#f1f1f1;
+}
+.work-proc-1-bg h2 {
+  color:#f1f1f1;
+  border-color:#f1f1f1;
+}
+.work-proc-1-bg p {color:#d3d4d5;}
+
+/* #WORK PROCESS 2 #NEW-2
+=====================================================*/
+.work-proc2-cont{
+  position: relative;
+  padding: 45px 20px 20px 98px;
+  max-width: 320px;
+  margin: 0 auto;
+}
+.work-proc2-a-cont{
+  position: relative;
+  max-width: 320px;
+  margin: 0 auto;
+}
+.work-proc2-icon-cont {
+  position: absolute;
+  top: 55px;
+  left: 0;
+  color: #2a2b2f;
+  font-size: 60px;
+  line-height: 60px;
+  font-weight: 600;
+}
+.work-proc2-cont h3 {
+  color: #2a2b2f;
+  font-size: 18px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+.pos-l-0 {
+  left:0;
+}
+.pos-l-12 {
+  left:12px;
+}
+.pos-rb-0 {
+  right:0;
+  bottom:0;
+}
+.pos-v-center {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.work-proc2-a .border-bot {
+  border-bottom:3px solid #2a2b2f;
+}
+.work-proc2-a-text{
+  position: absolute;
+  top: 44px;
+  left: 0;
+  transition: left .27s cubic-bezier(0.300, 0.100, 0.580, 1.000);
+}
+.work-proc2-a:hover .work-proc2-a-text{
+  left: 30px;
+  transition: left .27s cubic-bezier(0.300, 0.100, 0.580, 1.000);
+}
+.work-proc2-a {
+  font-family: $default-font-4;
+  font-size:40px;
+  font-weight:600;
+  line-height:50px;
+  color:#2a2b2f;
+}
+.work-proc2-a:hover {
+  color:#2a2b2f;
+}
+.work-proc2-bg-block {
+  margin-left:60px;
+  height:200px;
+  width:200px;
+  background:#f6e701;
+  transition: background .27s cubic-bezier(0.300, 0.100, 0.580, 1.000);
+}
+.work-proc2-a:hover .work-proc2-bg-block {
+  background:#5bd3be;
+  transition: background .27s cubic-bezier(0.300, 0.100, 0.580, 1.000);
+}

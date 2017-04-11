@@ -1,0 +1,56 @@
+
+/* #ABOUT US 1 #NEW
+=====================================================*/
+.team-social {
+  list-style: none;
+  margin: 15px 0 0 0;
+  padding: 0;
+}
+.team-social li {
+  display: inline-block;
+  font-size: 18px;
+  margin: 0 5px;
+}
+.team-social a {
+  color: #97999c;
+}
+.team-social a:hover {
+  color: #101010;
+}
+.member h3 {
+  font-size: 18px;
+  line-height:24px;
+  margin: 0;
+  padding-top: 40px;
+  padding-bottom: 5px;
+  position: relative;
+}
+.member span {
+  font-size: 14px;
+  font-style: normal;
+}
+.member{
+  text-align: center;
+  margin-bottom:30px;
+}
+
+/* #ABOUT US 2 #NEW
+=====================================================*/
+.about-us-2-cont {
+  background:#f4f4f4;
+}
+
+/* #ABOUT US 3 #NEW-2
+=====================================================*/
+.au3-title{
+  padding:0;
+  margin:40px 0 10px 0;
+}
+.au3-btn-cont{
+  margin:30px 0 70px 0;
+}
+@media only screen and (max-width: 991px) {
+  .au3-title,.au3-text,.au3-btn-cont{
+    text-align:center;
+  }
+}

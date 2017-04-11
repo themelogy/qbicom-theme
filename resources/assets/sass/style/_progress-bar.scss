@@ -1,0 +1,95 @@
+
+
+/* #PROGRESS BAR #NEW
+=================================================*/
+.over-hide {
+  overflow:hidden;
+}
+.skill-bar {
+  height: 36px;
+  position: relative;
+  background: #f6f6f6;
+  margin: 0 0 5px 0;
+}
+.skill-bar-content[data-percentage] { text-indent: -9999px; }
+.skill-bar-content {
+  background: #101010;
+  height: 36px;
+  width: 0%;
+}
+.skill-bar .skill-title {
+  color: #2a2b2f;
+  top: 10px;
+  left: 15px;
+  position: absolute;
+}
+.skill-bar .percentage {
+  color: #666;
+  position: absolute;
+  top: 9px;
+  left: 90%;
+  background-color:#0C0;
+}
+
+/***** #SKILL BAR 2 #NEW ******/
+.skill-bar2 .skill-bar .skill-title {
+  color: #fff;
+  top: 7px;
+  left: 15px;
+}
+.skill-bar2 .skill-bar-content {
+  background: #2a2b2f;
+  height: 40px;
+}
+.skill-bar2 .skill-bar {
+  height: 40px;
+  margin: 0 0 10px 0;
+}
+
+/***** #SKILL BAR ANIMATED #NEW ******/
+.skillbar {
+  position:relative;
+  display:block;
+  margin-top:25px;
+  margin-bottom:55px;
+  width:100%;
+  background:#eee;
+  height:2px;
+  -webkit-transition:.4s linear;
+  -moz-transition:.4s linear;
+  -ms-transition:.4s linear;
+  -o-transition:.4s linear;
+  transition:.4s linear;
+  -webkit-transition-property:width, background-color;
+  -moz-transition-property:width, background-color;
+  -ms-transition-property:width, background-color;
+  -o-transition-property:width, background-color;
+  transition-property:width, background-color;
+}
+.skillbar-title {
+  position:absolute;
+  bottom:0;
+  left:0;
+  color:#2a2b2f;
+}
+.skillbar-title span {
+  display:block;
+  height:40px;
+  line-height:40px;
+}
+.skillbar-bar {
+  height:2px;
+  width:0px;
+  background:#2a2b2f;
+}
+.skill-bar-percent {
+  position:absolute;
+  right:0px;
+  bottom:0;
+  height:40px;
+  line-height:40px;
+  color:rgba(0, 0, 0, .6);
+}
+.audio-box audio{
+  width:100%;
+}

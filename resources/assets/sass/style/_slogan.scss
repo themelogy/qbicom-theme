@@ -1,0 +1,38 @@
+
+/*	#SLOGAN 1 #NEW-2
+===============================================*/
+.sl1-text {
+  margin: 30px 0 0px 0;
+  font-size:34px;
+  line-height:43px;
+}
+
+@media (max-width: 480px) {
+  .sl1-text {
+    font-size:26px;
+    line-height:32px;
+  }
+}
+.bg-sl1 {
+  background: url(../images/content/bg-slogan.jpg) repeat, rgba(0,0,0, .5) ;
+}
+
+/*	#SLOGAN 2 #NEW-2
+===============================================*/
+.sl2-text {
+  font-size:48px;
+  font-weight:lighter;
+  line-height:60px;
+  letter-spacing:3px;
+  text-align:center;
+}
+.sl2-text i{
+  border-bottom:1px solid #2a2b2f;
+}
+
+@media (max-width: 992px) {
+  .sl2-text {
+    font-size:32px;
+    line-height:44px;
+  }
+}

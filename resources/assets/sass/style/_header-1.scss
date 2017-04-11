@@ -1,0 +1,30 @@
+
+/*	#HEADER
+=====================================================*/
+.logo-row {
+  position:relative;
+  width:142px;
+  z-index:1;
+}
+.header-transporent-bg-black{
+  background:#303036;
+}
+/***** Need for mobile transparent header *****/
+.header-black-bg {
+  position:absolute;
+  top:0;
+  width:100%;
+  height:80px;
+  background: #6B6B6B;
+  z-index:-1;
+}
+.transparent-fix {
+  margin-bottom:0 !important;
+  transition:margin-bottom .2s cubic-bezier(0.000, 0.000, 0.580, 1.000) 0s, background 0.05s cubic-bezier(0.000, 0.000, 0.580, 1.000) 0s !important;
+}
+.header-black.transparent-fix {
+  background:rgb(48, 50, 54);
+}
+.header-white.transparent-fix {
+  background:rgb(255, 255, 255);
+}

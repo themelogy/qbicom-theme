@@ -1,0 +1,53 @@
+/* #LOGO
+================================================== */
+.logo-container {
+  width: 120px;
+  background-color: #414146;
+  transition: all .3s ease 0s;
+}
+header .logo {
+  display: block;
+  padding-bottom: 15px;
+  padding-left: 45px;
+  padding-top: 81px;
+  transition: all .4s ease 0s;
+}
+footer .logo {
+  display: block;
+  padding-bottom: 15px;
+  padding-left: 45px;
+  padding-top: 81px;
+  transition: all .4s ease 0s;
+  height: 120px;
+}
+header.affix .logo {
+  padding-top:20px;
+  padding-bottom: 16px;
+  transition: all .4s ease 0s;
+}
+header.affix  .logo-2, .header.affix.no-transparent .logo-2 {
+  width: auto;
+  height: auto;
+  padding-top:3px;
+  padding-bottom:0;
+  transition: all .4s ease 0s;
+}
+.logo-img {
+  width: 220px;
+  height: 60px;
+}
+header .logo .logo-img {
+  transition: all .4s ease 0s;
+}
+header.affix .logo .logo-img {
+  transition: all .4s ease 0s;
+}
+.logo-2 {
+  width: 200px;
+  display: block;
+  padding:16px 0 15px 0;
+  transition: all .4s ease 0s;
+}
+.header.no-transparent .logo-2 {
+  padding:26px 0 25px 0;
+}

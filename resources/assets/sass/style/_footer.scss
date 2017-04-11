@@ -1,0 +1,137 @@
+
+
+
+/* #FOOTER 1 NEW
+=====================================================*/
+.footer-copy {
+  margin-top:5px;
+}
+.footer-copy a{
+  font-size:11px;
+  color:#6b6d6f;
+}
+.footer-soc-a a {
+  font-size:18px;
+  padding:12px;
+}
+
+.footer-gray {
+  background: #EEEEEE;
+}
+
+.footer-top-gray {
+  border-top: 1px solid #EEEEEE;
+}
+
+/* #FOOTER 2 NEW
+=====================================================*/
+.footer2-copy-cont {
+  padding-top:30px;
+  border-top: 1px solid #eee;
+}
+.widget{
+  margin-bottom:65px;
+}
+.footer2-copy {
+  font-size:12px;
+  color:#6b6d6f;
+}
+.footer2-copy:hover {
+  color:#101010;
+}
+.footer2-soc-a {
+  padding-bottom:7px;
+}
+.footer2-soc-a a {
+  font-size:16px;
+  padding:9px !important;
+}
+.logo-footer{
+  width: 200px;
+  max-height:57px;
+}
+.logo-footer-cont{
+  margin-bottom:50px;
+}
+.footer2-text-cont {
+  margin-bottom:24px;
+}
+.widget h4 {
+  margin-top: 16px;
+  margin-bottom: 21px;
+  font-family: $default-font-4 !important;
+  font-size:18px;
+  font-weight:normal;
+}
+.widget .links-list {
+  list-style: none;
+  margin: 0;
+  padding:0;
+}
+.widget .links-list li{
+  padding-bottom:7px;
+}
+.entry-title h4 {
+  margin: 0;
+  font-size: 14px;
+  font-weight: 600;
+}
+.widget .post-prev-title a{
+  font-size: 14px;
+  line-height:21px;
+  font-weight: normal;
+}
+.widget .post-prev-info{
+  text-transform:none;
+  line-height:18px;
+}
+.container-m-60 {
+  padding-right: 60px;
+  padding-left: 60px;
+  margin-right: auto;
+  margin-left: auto;
+  position: relative;
+  width: 100%;
+}
+
+@media (max-width: 992px) {
+  .container-m-60 {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+}
+
+/* #FOOTER 2 BLACK #NEW
+=====================================================*/
+.footer2-black, .footer-black {
+  background: $default-theme-color;
+  color:rgba(255,255,255, .7);
+}
+.footer2-black .widget h4 {
+  color:#fff;
+}
+.footer2-black .a-text, .footer2-black .a-text-cont a {
+  color: rgba(255,255,255, .7);
+}
+.footer2-black .a-text:hover, .footer2-black .a-text-cont a:hover {
+  color: #fff;
+}
+.footer2-black .a-text-main-cont .a-text, .footer2-black .a-text-main-cont a, .footer2-black .tweet_list a {
+  color:#fff;
+}
+.footer2-black .a-text-main-cont .a-text:hover, .footer2-black .a-text-main-cont a:hover, .footer2-black .tweet_list a:hover {
+  color: rgba(255,255,255, .7);
+}
+.footer2-black .footer2-copy-cont {
+  padding-top: 30px;
+  border-top: 1px solid rgba(lighten($default-theme-color, 50%), .2);
+}
+.footer2-black .footer2-soc-a a, .footer-black .footer-soc-a a {
+  color: rgba(255,255,255, .3);
+}
+.footer2-black .footer2-soc-a a:hover, .footer-black .footer-soc-a a:hover, .footer2-black .footer2-copy:hover {
+  color: #fff;
+}
+
+/* #FOOTER 3 #NEW-2
+=====================================================*/

@@ -1,0 +1,63 @@
+/* #CONTACT MENU
+=====================================================*/
+.menu-contact-info {
+  background-color:#c6c7c9;
+  padding:0;
+  color: #fff;
+}
+.menu-map-container {
+  padding:0 !important;
+}
+ul.contact-list, ul.contact-list li {
+  margin:0;
+  padding:0;
+  list-style:none;
+}
+ul.contact-list {
+  padding-top: 74px;
+  padding-bottom: 68px;
+  padding-left: 28px;
+}
+ul.contact-list li{
+  display: block;
+  padding-right: 15px;
+  border:none !important;
+}
+.loc-icon-container {
+  position:absolute;
+  top:0;
+  left:0;
+}
+.menu-contact-info .contact-list > li {
+  position:relative;
+}
+.menu-contact-text-container {
+  padding-left:60px;
+  padding-top: 11px;
+  min-height: 46px;
+}
+.menu-contact-info .contact-list .a-mail {
+  color:#fff !important;
+  padding:0 !important;
+}
+.menu-contact-info .contact-list .a-mail:hover {
+  color:#414146 !important;
+  background:none !important;
+}
+.icon_mail_alt.main-menu-contact-icon {
+  padding-top:10px;
+  padding-bottom:14px;
+}
+.menu-contact-info {
+  margin-top: -22px;
+  margin-bottom: -22px;
+}
+.main-menu-contact-icon {
+  font-size: 24px;
+  padding: 12px;
+  color: #fff;
+}
+.icon_mail_alt.main-menu-contact-icon {
+  padding-top:10px;
+  padding-bottom:14px;
+}

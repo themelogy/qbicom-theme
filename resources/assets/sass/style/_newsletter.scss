@@ -1,0 +1,93 @@
+
+/* #NEWSLETTER NEW
+=====================================================*/
+.nl-cont {
+  padding-top:80px;
+  padding-bottom:60px;
+  background:#eee;
+}
+.nl-title {
+  margin-bottom:15px;
+}
+#mc-embedded-subscribe {
+  font-family: $default-font-4;
+  font-weight:normal;
+}
+.newsletterform {
+  width:100%;
+  float:right;
+  border-bottom: 1px solid #cbcbcb;
+  margin:0;
+  margin-bottom:15px;
+  padding:0;
+}
+.nl-email-input {
+  font-size:14px;
+  font-family: $default-font-4;
+  font-weight: normal;
+  border-color:#cbcbcb;
+  border: none;
+}
+#notification_container {
+  position:absolute;
+  top:0px;
+  right:0;
+  z-index:3;
+  width:100%;
+}
+#notification_container .alert{
+  padding-top:11px;
+  padding-bottom:10px;
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,.26);
+}
+#notification_container a{
+  color:#245269;
+  font-weight: 700;
+}
+#notification_container a:hover{
+  text-decoration: underline;
+}
+
+@media only screen and (max-width : 480px) {
+  #google-map {
+    height:300px;
+  }
+}
+
+/* #NEWSLETTER 2 FOOTER NEW-2
+=====================================================*/
+.newsletterform2{
+  width:100%;
+  border-bottom: 1px solid #ccc;
+}
+.nl2-email-input {
+  font-family: $default-font-4;
+  font-weight: lighter;
+  border:none;
+}
+.nl2-btn{
+  position:absolute;
+  top: 5px;
+  right:0;
+  font-size:27px;
+  background:none;
+  color:#2a2b2f;
+}
+.nl2-btn:hover{
+  color:#6b6d6f;
+  right:-5px;
+}
+.footer2-black .nl2-btn {
+  color: rgba(255,255,255, .7);
+}
+.footer2-black .nl2-btn:hover{
+  color: rgba(255,255,255, 1);
+}
+.footer2-black .newsletterform2{
+  border-color: rgba(lighten($default-theme-color, 50%), .2);
+}
+
+.footer2-black .nl2-email-input::-webkit-input-placeholder {color: rgba(255,255,255, .7)}
+.footer2-black .nl2-email-input::-moz-placeholder           {color: rgba(255,255,255, .7)}/* Firefox 19+*/
+.footer2-black .nl2-email-input:-moz-placeholder           {color: rgba(255,255,255, .7)}/* Firefox 18- */
+.footer2-black .nl2-email-input:-ms-input-placeholder      {color: rgba(255,255,255, .7)}

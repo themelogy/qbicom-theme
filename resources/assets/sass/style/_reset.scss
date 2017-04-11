@@ -1,0 +1,143 @@
+/* #CSS RESET
+ ===================================================================*/
+html, body, div, span, applet, object, iframe, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, fieldset, form, label, legend, caption, tbody, tfoot, thead, tr, th, td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+}
+
+:focus {
+  outline: 0;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+fieldset, img {
+  border: 0;
+}
+
+input {
+  border: 1px solid #b0b0b0;
+  padding: 3px 5px 4px;
+  color: #979797;
+}
+
+address, caption, cite, code, dfn, th, var {
+  font-style: normal;
+  font-weight: normal;
+}
+
+caption, th {
+  text-align: left;
+}
+
+q:before, q:after {
+  content: '';
+}
+
+abbr, acronym {
+  border: 0;
+}
+
+body {
+  border: 0 none;
+  font-size: 100%;
+  margin: 0;
+  outline: 0 none;
+  padding: 0;
+  vertical-align: baseline;
+  font-size: 14px;
+  line-height: 25px;
+  font-family: $default-font-1;
+  font-weight: normal;
+  color: #6b6d6f;
+  background-color: #fff;
+  -webkit-font-smoothing: antialiased !important;
+  -webkit-text-size-adjust: 100% !important;
+}
+
+.bold {
+  font-weight: bold !important;
+}
+
+.font-light {
+  font-weight: 100 !important;
+}
+
+.font-norm {
+  font-weight: normal !important;
+}
+
+::selection {
+  background-color: #ffea00;
+  color: #2a2b2f;
+}
+
+::-moz-selection {
+  background-color: #ffea00;
+  color: #2a2b2f;
+}
+
+.relative {
+  position: relative;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.font-open-sans, #main-menu.font-open-sans .navbar .nav li a, #main-menu.font-open-sans .megamenu .title {
+  font-family: $default-font-1 !important;
+}
+
+.font-lato, #main-menu.font-open-sans .navbar .nav li a, #main-menu.font-open-sans .megamenu .title {
+  font-family: $default-font-2 !important;
+}
+
+.font-poppins, #main-menu.font-poppins .navbar .nav li a, #main-menu.font-poppins .megamenu .title {
+  font-family: $default-font-5 !important;
+}
+
+.font-montserrat, #main-menu.font-montserrat .navbar .nav li a, #main-menu.font-montserrat .megamenu .title {
+  font-family: $default-font-3 !important;
+}
+
+.font-raleway, #main-menu.font-raleway .navbar .nav li a, #main-menu.font-raleway .megamenu .title {
+  font-family: $default-font-6 !important;
+}
+
+.font-josefin, #main-menu.font-josefin .navbar .nav li a, #main-menu.font-josefin .megamenu .title {
+  font-family: $default-font-7 !important;
+}
+
+@media (max-width: 767px) and (min-width: 480px) {
+  .container, .container-fluid.fes1-cont {
+    width: 470px !important;
+  }
+}
+
+@media (max-width: 479px) {
+  .container, #header.header-fullwidth .container {
+    width: 100% !important
+  }
+}
