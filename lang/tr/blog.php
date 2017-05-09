@@ -2,6 +2,9 @@
 
 return [
     'title'        => 'Blog',
-    'author posts' => ':author yazıları',
-    'tags'         => 'Etiketler'
+    'category'     => 'Kategori',
+    'tags'         => 'Etiketler',
+    'archive'      => 'Arşiv',
+    'recent posts' => 'Son Yazılar',
+    'author posts' => ':author yazıları'
 ];

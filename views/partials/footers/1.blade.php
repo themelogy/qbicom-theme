@@ -22,21 +22,21 @@
             </div>
 
             <div class="col-md-3 col-sm-3 widget">
-                @php $menu = app(\Modules\Menu\Repositories\MenuRepository::class)->find(4) @endphp
+                @php $menu = app(\Modules\Menu\Repositories\MenuRepository::class)->findBySlug('hizmetlerimiz') @endphp
                 @if(isset($menu))
                 <h4 class="font-montserrat"><strong>{{ $menu->title }}</strong></h4>
                 <ul class="links-list bold a-text-cont">
-                    {!! Menu::render($menu->name, Themes\Qbicom\Presenter\FooterMenuPresenter::class) !!}
+                    {!! Menu::render($menu->name, Themes\Qbicom\Presenter\FooterMenuLinksPresenter::class) !!}
                 </ul>
                 @endif
             </div>
 
             <div class="col-md-3 col-sm-3 widget">
-                @php $menu = app(\Modules\Menu\Repositories\MenuRepository::class)->find(3) @endphp
+                @php $menu = app(\Modules\Menu\Repositories\MenuRepository::class)->findBySlug('faaliyet-alanlari') @endphp
                 @if(isset($menu))
                     <h4 class="font-montserrat"><strong>{{ $menu->title }}</strong></h4>
                     <ul class="links-list bold a-text-cont">
-                        {!! Menu::render($menu->name, Themes\Qbicom\Presenter\FooterMenuPresenter::class) !!}
+                        {!! Menu::render($menu->name, Themes\Qbicom\Presenter\FooterMenuLinksPresenter::class) !!}
                     </ul>
                 @endif
             </div>
