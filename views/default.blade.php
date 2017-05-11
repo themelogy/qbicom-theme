@@ -17,7 +17,11 @@
     <div class="container p-50-cont">
         <div class="row">
             <div class="col-md-12">
-                <h4>{{ $page->title }}</h4>
+                @if($image = $page->present()->firstImage(null, 250, 'resize', 80))
+                <div class="pull-right m-lft-20 m-bot-20">
+                    {!! Html::image($image, $page->title, ['class'=>'img-thumbnail']) !!}
+                </div>
+                @endif
                 {!! $page->body !!}
             </div>
         </div>
