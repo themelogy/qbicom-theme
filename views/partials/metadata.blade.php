@@ -9,9 +9,7 @@
 <link rel="apple-touch-icon" sizes="114x114" href="{{ Theme::url('images/favicon/apple-touch-icon-114x114.png') }}">
 <link rel="icon" sizes="192x192" href="{{ Theme::url('images/favicon/icon-192x192.png') }}">
 
-{!! Theme::style('css/bootstrap.min.css') !!}
-{!! Theme::style('css/icons-fonts.css') !!}
-{!! Theme::style('css/style.min.css') !!}
+{!! Theme::style('css/all.min.css') !!}
 {!! Theme::style('css/animate.min.css') !!}
 
 <!--[if lte IE 8]>{!! Theme::style('css/ie-warning.css') !!}<![endif]-->

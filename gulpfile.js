@@ -55,7 +55,7 @@ elixir(function (mix) {
     mix.styles([
         'bootstrap.min.css',
         'style.min.css',
-        '../vendor/layerslider/css/layerslider.css',
+        'icons-fonts.css',
         '../vendor/flag-icon-css/css/flag-icon.min.css'
     ], 'resources/assets/css/all.min.css');
 
@@ -64,7 +64,8 @@ elixir(function (mix) {
     ], 'resources/assets/js/main.min.js', 'resources/assets/js');
 
     mix.copy('assets/vendor/bootstrap-sass/assets/fonts', 'resources/assets/fonts')
-        .copy('resources/assets', 'assets');
+        .copy('resources/assets', 'assets')
+        .copy('resources/assets/vendor/flag-icon-css/flags', 'assets/flags');
 
     mix.version([
         'css/style.min.css',

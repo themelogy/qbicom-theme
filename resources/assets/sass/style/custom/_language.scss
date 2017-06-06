@@ -1,0 +1,40 @@
+.language {
+  float: right;
+  > .dropdown-toggle {
+    text-transform: uppercase;
+    font-weight: bold;
+    background: none !important;
+    color: #ffffff !important;
+    &:hover {
+      cursor: pointer !important;
+    }
+  }
+  .dropdown-menu {
+    @include border-radius(5px);
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 100%;
+    min-width: 120px !important;
+    > .active > a, a:focus, a:hover {
+      background: lighten($default-theme-color, 25%);
+      color: #ffffff;
+    }
+    li {
+      a {
+        padding: 5px 20px !important;
+        color: $default-theme-color;
+        &:hover {
+          background: lighten(map_get($theme-colors, gray1), 50%);
+          color: #ffffff;
+        }
+      }
+    }
+  }
+}
+@media only screen and (max-width: 768px) {
+  .language {
+    float: none;
+    margin: 0 auto;
+  }
+}
