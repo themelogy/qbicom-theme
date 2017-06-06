@@ -31,7 +31,7 @@
 
 
     <div class="mb-30">
-        {!! $post->body !!}
+        {!! $post->content !!}
     </div>
 </div>
 @endcomponent
