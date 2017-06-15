@@ -29,8 +29,8 @@
                     <li class="clearfix">
                         <a href=""><img src="{{ $post->present()->firstImage(70,70,'fit',80) }}" alt="{{ $post->title }}" class="widget-posts-img"></a>
                         <div class="widget-posts-descr2">
-                            <a href="#" class="font-poppins lh-18">{{ $post->title }}</a>
-                            <div class="lh-18">{{ $post->created_at->formatLocalized('d F Y') }}</div>
+                            <a href="{{ $post->url }}" class="font-poppins lh-18">{{ $post->title }}</a>
+                            <div class="lh-18">{{ $post->created_at->formatLocalized('%d %B %Y') }}</div>
                         </div>
                     </li>
                 @endforeach
@@ -74,7 +74,7 @@
             <ul class="clearlist widget-menu font-poppins">
                 @foreach(Blog::archive() as $archive)
                     <li>
-                        <a href="#" title="">{{ $archive->created_at->formatLocalized('F') }} {{ $archive->year }}</a>
+                        <a href="{{ $archive->url }}" title="">{{ $archive->created_at->formatLocalized('%B') }} {{ $archive->year }}</a>
                         <small><span class="slash-divider">/</span> {{ $archive->post_count }}</small>
                     </li>
                 @endforeach

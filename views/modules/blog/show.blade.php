@@ -18,7 +18,7 @@
     </div>
 
     <div class="post-prev-info ">
-        {{ $post->created_at->formatLocalized('d F') }}
+        {{ $post->created_at->formatLocalized('%d %B') }}
         <span class="slash-divider">/</span>
         <a href="{{ route('blog.author', [$post->author->slug]) }}">{{ $post->author->fullname }}</a>
         @if(count($post->tags)>0)

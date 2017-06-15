@@ -32,7 +32,7 @@
                     <div class="contact-form-cont">
                         <!-- TITLE -->
                         <div class="mb-40">
-                            <h3>İletişim Formu</h3>
+                            <h3>{{ trans('themes::contact.title') }}</h3>
                         </div>
 
                         <!-- CONTACT FORM -->
