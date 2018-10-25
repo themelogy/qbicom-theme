@@ -43,6 +43,8 @@
 {!! Asset::js() !!}
 
 <!-- MAIN SCRIPT -->
-{!! Theme::script('js/main.min.js') !!}
+{!! Theme::script('js/main.js') !!}
 
 @stack('js_inline')
+
+@include('partials.analytics')

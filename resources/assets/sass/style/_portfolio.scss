@@ -42,7 +42,7 @@
 .port-grid{
   list-style: none;
   margin: 0;
-  padding: 0;
+  padding: 30px 0 0 0;
 }
 .port-item{
   width: 25%;
@@ -51,6 +51,15 @@
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
+  a.bg {
+    background-color: white;
+    -webkit-box-shadow: inset 0 0 50px rgba(0,0,0,0.2);
+    -moz-box-shadow: inset 0 0 50px rgba(0,0,0,0.2);
+    box-shadow: inset 0 0 50px rgba(0,0,0,0.2);
+  }
+  img {
+    padding: 30px;
+  }
 }
 .port-item.port-item-width-2{
   width: 50%;

@@ -1,7 +1,7 @@
 @extends('layouts.master')
 
 @section('header')
-    @component('partials.headers.full-width', ['header_class'=>'no-transparent', 'menu_class'=>'no-home'])
+    @component('partials.headers.full-width', ['header_class'=>'no-transparent', 'menu_class'=>'no-home', 'page'=>$page])
     @endcomponent
 @endsection
 
